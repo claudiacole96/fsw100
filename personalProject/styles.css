@@ -129,12 +129,3 @@ footer > h6 {
     color: #5cc3c4;
     text-align: center;
 }
-
-@font-face {
-    font-family: 'grandstanderthin';
-    src: url('grandstander-variablefont_wght-webfont.woff2') format('woff2'),
-         url('grandstander-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
