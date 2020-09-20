@@ -24,7 +24,7 @@ a {
     font-size: 25px;
     border-radius: 10px;
 }
-a:hover {
+nav > a:hover {
     background-color: #52585e;
     text-decoration: underline;
 }
