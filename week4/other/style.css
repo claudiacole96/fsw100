@@ -50,6 +50,31 @@ p, li {
     padding-left: 25px;
     font-size: 36px;
 }
+img {
+    width: 150px;
+    height: auto;
+    border: 3px solid black
+}
+#flash {
+    position: absolute;
+    margin-top: 0;
+    left: 8px;
+}
+#orb {
+    position: absolute;
+    margin-top: 150px;
+    left: 8px;
+}
+#dash {
+    position: absolute;
+    margin-top: 300px;
+    left: 8px;
+}
+#sonic {
+    position: absolute;
+    margin-top: 450px;
+    left: 8px;
+}
 .center {
     margin-left: 300px;
     margin-right: 300px;
@@ -58,66 +83,68 @@ p, li {
     float: right;
     width: 15%;
 }
+#finish {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    font-size: 5em;
+    padding: 15px;
+    background-color: red;
+    height: 550px;
+}
 .main-left {
     float: left;
     width: 15%;
+}
+#start {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    font-size: 6em;
+    padding: 15px;
+    background-color: green;
+    height: 550px;
+}
+.race {
+    display: none;
 }
 .main-center {
     margin: auto;
     width: 70%;
     padding: 5px;
 }
-#join {
+#race-start {
     font-size: 3em;
-    position: absolute;
+    margin-top: 50px;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
-    margin-left: 700px;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
     border-radius: 50%;
     padding: 15px;
 }
 table {
     font-size: 3em;
-    border: 5px solid black;
-    width: 100%;
+    border: 5px solid black
 }
 thead {
     text-decoration: underline;
 }
 td {
-    width: 40%;
-    text-align: center;
-    font-size: 24px;
-    height: 60px;
+    border: 5px solid black;
 }
-.vibrant-blue {
-    background-color: #5CC3C4;
+#first{
+    visibility: visible;
 }
-.vibrant-coral {
-    background-color: #D9834E;
+#second{
+    visibility: visible;
 }
-.pastel-blue {
-    background-color: #9FCDCE;
+#third{
+    visibility: visible;
 }
-.pastel-coral {
-    background-color: #DFB093;
-}
-.bold {
-    font-weight: bold;
-    width: 20%;
-    text-align: center;
+#fourth{
+    visibility: visible;
 }
 footer > h6 {
     color: #5cc3c4;
-    text-align: center;
-}
-img {
-    width: 80%;
-    padding: 15px;
-    margin-top: 25px;
-}
-div > a {
-    display: block;
-    align-content: center;
     text-align: center;
 }

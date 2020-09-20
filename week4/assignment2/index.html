@@ -4,7 +4,6 @@
         <title>Website Template</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&display=swap" rel="stylesheet">
-        <script src="script.js"></script>
     </head>
     <body>
         <nav class="center">
@@ -14,51 +13,66 @@
             <a href="">Blog</a>
             <a href="">Contact</a>
             <form>
-                <input type="text">
-                <button>Search</button>
+                <span>Already have an account?</span>
+                <button>Login</button>
             </form>
         </nav>
         <header>
-            <H1 class="center">Racing Champs</H1>
+            <H1 class="center">Website Template</H1>
         </header>
         <main>
-            <div class="main">
-                <img id="flash" src="https://www.sideshow.com/storage/product-images/100237/the-flash_dc-comics_gallery_5e586a2d2d653.jpg">
-                <img id="orb" src="https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2013/05/05/1003010-19230712-2560-1440.jpg">
-                <img id="dash" src="https://i.pinimg.com/originals/f8/50/1f/f8501f8febeb76b62e59cc35056e3aab.png">
-                <img id="sonic" src="https://www.kindpng.com/picc/m/119-1196149_sonic-running-png-transparent-png.png">
-                <div class="main">
-                    <span id="finish">F<br>I<br>N<br>I<br>S<br>H</span>
-                </div>
-                <div>
-                    <span id="start">S<br>T<br>A<br>R<br>T</span>
-                </div>
-                <h1 class="center">Ultimate Speed Race</h1>
-                <p class="center">
-                    Race the fastest of the fastest!
-                    <ul>
-                        <li>The Flash</li>
-                        <li>Orb</li>
-                        <li>Dash</li>
-                        <li>Sonic the Hedgehog</li>
-                    </ul>
-                </p>
-                <button id="raceStart">START</button><!--start button to start javascript for the race-->
+            <div class="main-left">
+                <img class="ad" src="https://ncmagroup.files.wordpress.com/2017/05/the-ultimate-guide-to-ad-sales-how-to-sell-ads-directly.png?w=723">
+                <a href="">Clink Link Here</a>
+                <img class="ad" src="https://www.monsterinsights.com/wp-content/uploads/2018/04/Earn-Money-With-Google-AS.jpg">
+                <a href="">Clink Link Here</a>
+                <img class="ad" src="https://www.storytoday.co.in/wp-content/uploads/2017/11/google-adwords-st.jpg">
+                <a href="">Clink Link Here</a>
             </div>
-            <div class="center">
-                <h2>Race Results</h2>
+            <div class="main-right">
+
+            </div>
+            <div class="main-center">
+                <button id="join" onclick="start()">JOIN<br>PREMIUM<br>PLUS</button>
+                <h1>Sign Up For Premium Plus</h1>
+                <p>
+                    Join Today!
+                    <ol>
+                        <li>Sign Up</li>
+                        <li>Upgrade to Premium Plus</li>
+                        <li>Enjoy</li>
+                    </ol>
+                </p>
+            </div>
+            <div class="main-center">
+                <h2>What Are the Perks?</h2>
                 <table class="hidden">
                     <thead>
-                        <th>1st</th>
-                        <th>2nd</th>
-                        <th>3rd</th>
-                        <th>Runner Up</th>
+                        <th class="vibrant-coral"></th>
+                        <th class="vibrant-coral">Basic</th>
+                        <th class="vibrant-blue">Premium Plus</th>
                     </thead>
                     <tbody>
-                        <td id="first">Orb</td> <!--use java script to only show these elements when they finish the race-->
-                        <td id="second">Flash</td>
-                        <td id="third">Sonic</td>
-                        <td id="fouth">Dash</td>
+                        <tr>
+                            <td class="bold pastel-coral">Login Access</td>
+                            <td class="pastel-coral">&#10003;</td>
+                            <td class="pastel-blue">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <td class="bold vibrant-coral">Access to max 20 Products</td>
+                            <td class="vibrant-coral">&#10003;</td>
+                            <td class="vibrant-blue">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <td class="bold pastel-coral">Unlimited Product Access</td>
+                            <td class="pastel-coral"></td>
+                            <td class="pastel-blue">&#10003;</td>
+                        </tr>
+                        <tr>
+                            <td class="bold vibrant-coral"></td>
+                            <td class="vibrant-coral">Free</td>
+                            <td class="vibrant-blue"><b>$19.99/mo<b></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

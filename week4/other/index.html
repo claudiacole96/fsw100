@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Template</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav class="center">
+            <a href="./index.html">Home</a>
+            <a href="">About Us</a>
+            <a href="">Products/Services</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+            <form>
+                <input type="text">
+                <button>Search</button>
+            </form>
+        </nav>
+        <header>
+            <H1 class="center">Racing Champs</H1>
+        </header>
+        <main>
+            <div class="main-container">
+                <img id="flash" src="https://www.sideshow.com/storage/product-images/100237/the-flash_dc-comics_gallery_5e586a2d2d653.jpg">
+                <img id="orb" src="https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2013/05/05/1003010-19230712-2560-1440.jpg">
+                <img id="dash" src="https://i.pinimg.com/originals/f8/50/1f/f8501f8febeb76b62e59cc35056e3aab.png">
+                <img id="sonic" src="https://www.kindpng.com/picc/m/119-1196149_sonic-running-png-transparent-png.png">
+                <div class="main-right">
+                    <span id="finish" class="race">F<br>I<br>N<br>I<br>S<br>H</span>
+                </div>
+                <div class="main-left">
+                    <span id="start" class="race">S<br>T<br>A<br>R<br>T</span>
+                </div>
+                <div class="main-center">
+                    <h1>Ultimate Speed Race</h1>
+                    <p>
+                        Race the fastest of the fastest!
+                        <ul>
+                            <li>The Flash</li>
+                            <li>Orb</li>
+                            <li>Dash</li>
+                            <li>Sonic the Hedgehog</li>
+                        </ul>
+                    </p>
+                    <button id= "race-start" onclick="start()">START</button><!--start button to start javascript for the race-->
+                    <h2>Race Results</h2>
+                    <table class="hidden">
+                        <thead>
+                            <th>1st</th>
+                            <th>2nd</th>
+                            <th>3rd</th>
+                            <th>Runner Up</th>
+                        </thead>
+                        <tbody>
+                            <td id="first">Orb</td> <!--use java script to only show these elements when they finish the race-->
+                            <td id="second">Flash</td>
+                            <td id="third">Sonic</td>
+                            <td id="fouth">Dash</td>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h6>Created by Claudia Evans</h6>
+        </footer>
+    </body>
+</html>
