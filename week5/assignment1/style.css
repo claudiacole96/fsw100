@@ -1,0 +1,60 @@
+/* Mobile First */
+
+div {
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+}
+
+.box {
+    border: 2px solid white;
+}
+
+#box1 {
+    background-color: #F5C6D6;
+}
+
+.pink {
+    background-color: #EE2E84;
+}
+
+.blue{
+    background-color: #85CFD8;
+}
+
+#box8{
+    background-color: #8DC63F;
+}
+
+#box9{
+    background-color: #E76E34;
+}
+
+/* Bigger Screen*/
+
+@media only screen and (min-width:768px){
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    #container-1 {
+        width: 100%;
+    }
+
+    .quarter {
+        width: 25%;
+    }
+
+    .half{
+        width: 50%;
+    }
+
+    #container-8{
+        width: 75%;
+    }
+}
