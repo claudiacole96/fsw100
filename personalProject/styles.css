@@ -1,12 +1,18 @@
 html {
     background-color: white;
 }
-
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, fr);
+}
 h1, a, p, li, span {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     background-color: #52585e;
+    grid-column: 1/7;
 }
 h1 {
     padding: 15px;
@@ -14,14 +20,32 @@ h1 {
     color: white;
     margin-block-start: 5px;
     margin-block-end: 0px;
-    margin-left: 300px;
-    margin-right: 300px;
+    grid-column: 2/6;
+}
+#nav-grid {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+}
+.nav-a {
+    grid-column: 1/8;
+}
+
+.login {
+    color: #52585e;
+    grid-column: 8/11;
+    font-size: 20px;
+}
+#nav-form {
+    grid-column: 11/14;
+}
+
+.login:hover {
+    background-color: #5cc3c4;
 }
 
 nav {
     padding: 10px;
-    margin-left: 300px;
-    margin-right: 300px;
+    grid-column: 2/6;
 }
 a {
     color: #5cc3c4;
@@ -123,8 +147,11 @@ button:hover {
 }
 main {
     margin-top: 0px;
+    grid-column: 1/7;
 }
-
+footer {
+    grid-column: 1/7;
+}
 footer > h6 {
     color: #5cc3c4;
     text-align: center;
