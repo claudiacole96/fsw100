@@ -126,7 +126,7 @@ footer > div {
 }
 
 /*Tablet View*/
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 900px){
     
     body{
         display: grid;
@@ -153,7 +153,7 @@ footer > div {
 }
 
 /*Laptop*/
-@media only screen and (min-width:1200px){
+@media only screen and (min-width:1100px){
     body {
         display: grid;
         grid-template-columns: repeat(12,1fr);
